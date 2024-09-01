@@ -1,0 +1,21 @@
+h1 {
+    color: blue
+}
+p{
+    font-size: xx-large;
+}
+.highlight{
+    background-color: rgb(203, 201, 199);
+}
+#main-title{
+    color: aqua;
+}
+#special-paragraph{
+    font-style: italic;
+}
+
+ul li{
+    font-style: oblique;
+    background-color: bisque;
+    color: rgb(128, 83, 0);
+}

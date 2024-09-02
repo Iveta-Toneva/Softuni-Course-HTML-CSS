@@ -1,0 +1,12 @@
+div p{
+    color: rgb(116, 116, 208);
+}
+ul>li{
+    list-style-type: none;
+}
+p+p{
+    color: rgb(219, 175, 175);
+}
+p~span{
+    font-weight: bold;
+}

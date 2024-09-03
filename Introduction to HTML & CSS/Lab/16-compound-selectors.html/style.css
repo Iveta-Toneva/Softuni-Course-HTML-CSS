@@ -1,0 +1,34 @@
+.highlighted {
+    color: rgb(26, 144, 144);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.important {
+    color: rgb(106, 149, 205);
+    font-style: oblique;
+}
+
+#highlighted {
+    background-color: rgb(105, 178, 180);
+    display: inline;
+}
+
+div+p {
+    color: red;
+}
+
+.link{
+    color: rgb(16, 13, 97);
+    display: block;
+}
+
+a+p#special{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(152, 128, 96);
+    background-color: aqua;
+    display: inline;  
+}
+

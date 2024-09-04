@@ -1,0 +1,40 @@
+nav li {
+    list-style: none;
+    display: inline;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+nav li a {
+    color: #000;
+    text-align: center;
+}
+
+section>details {
+    color: rgb(6, 6, 6);
+}
+
+body {
+    background-color: rgb(130, 134, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-div {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+details ul li {
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+
+div>article summary {
+    font-style: inherit;
+}

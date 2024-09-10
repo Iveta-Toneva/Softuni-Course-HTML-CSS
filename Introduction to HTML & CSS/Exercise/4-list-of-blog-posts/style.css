@@ -1,0 +1,16 @@
+time {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(130, 122, 122);
+}
+
+.info {
+    color: rgb(130, 122, 122);
+}
+
+body{
+    background-color: honeydew;
+}

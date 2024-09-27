@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+
+
+div {
+    padding: 1em 2em 2em 2em;
+    border: 0.1em dotted #605f5f;
+}
+
+#margin {
+    width: 600px;
+    margin: 5em auto;
+    background-color: #ff966f;
+}
+
+#border {
+    background-color: #ffe8c6;
+}
+
+#padding {
+    background-color: #85eb85;
+}
+
+div#content {
+    background-color: #a3d2e2;
+    text-align: center;
+    padding: 1em;
+}
+
+#border::before {
+    content: 'border';
+    display: block;
+    position: relative;
+    top: -15px;
+    left: -20px;
+}
+
+#margin::before {
+    content: 'margin';
+    display: block;
+    position: relative;
+    top: -15px;
+    left: -20px;
+}
+
+#padding::before {
+    content: 'padding';
+    display: block;
+    position: relative;
+    top: -15px;
+    left: -20px;
+}

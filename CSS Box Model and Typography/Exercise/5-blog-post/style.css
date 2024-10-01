@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Lato';
+    color: rgb(43, 42, 42);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid rgb(201, 200, 200);
+    padding: 2em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+body {
+    padding: 2em;
+}
+
+p {
+    margin: 1em 0em;
+}
+
+p:last-of-type{
+    font-style: italic;
+}
+
+p.last{
+    margin-bottom: 3em;
+}

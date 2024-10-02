@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+body{
+    padding: 2em;
+}
+
+.wrapper,details{
+    border: 1px solid gainsboro;
+}
+
+details{
+    padding: 2em;
+}
+
+summary{
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+p:first-of-type{
+    margin-bottom: 0.5em;
+}
+
+
+

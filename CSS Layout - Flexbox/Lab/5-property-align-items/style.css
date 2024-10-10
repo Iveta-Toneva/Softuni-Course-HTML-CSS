@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 2em;
+}
+
+h1{
+    margin-bottom: 0.5em;
+}
+
+h2{
+    margin: 0.5em 0em;
+}
+
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    height: 200px;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.center{
+    align-items: center;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+

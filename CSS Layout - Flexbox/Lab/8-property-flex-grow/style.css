@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.default .flex-item {
+    flex-grow: 0;
+}
+
+.grow-one .flex-item {
+    flex-grow: 1;
+}
+
+.second-child .flex-item:nth-child(2) {
+    flex-grow: 1;
+}
+
+.proportionally .flex-item:nth-child(1) {
+    flex-grow: 1;
+}
+
+.proportionally .flex-item:nth-child(2) {
+    flex-grow: 2;
+}
+
+.proportionally .flex-item:nth-child(3) {
+    flex-grow: 3;
+}

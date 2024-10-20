@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+}
+
+div {
+    text-align: center;
+}
+
+.container {
+    margin: 3em auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.3em;
+    padding: 0.1em;
+}
+
+.calendar {
+    border: 0.07em solid rgb(199, 198, 198);
+    border-radius: 0.3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week>*,
+.notes>* {
+    border: 0.07em solid rgb(199, 198, 198);
+    padding: 2em;
+}
+
+.week {
+    flex: 0 0 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week div:nth-of-type(1),
+.week div:nth-of-type(7) {
+    flex: 0 0 100%;
+}
+
+.notes {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes>* {
+    flex-grow: 1;
+}
+
+.week>* {
+    flex-grow: 1;
+}

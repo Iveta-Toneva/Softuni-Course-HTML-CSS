@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: #eee;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+
+.item {
+    border: 1em solid black;
+    flex: 1 1 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+}
+
+.item p {
+    align-self: flex-end;
+    opacity: 0.3;
+    font-style: italic;
+}

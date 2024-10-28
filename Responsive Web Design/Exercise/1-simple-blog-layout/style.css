@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    margin: 3em auto;
+    display: flex;
+    max-width: 80%;
+    background-color: white;
+    border: 0.1em solid gainsboro;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    gap: 1em;
+    border-radius: 0.3em;
+    flex-wrap: wrap;
+}
+
+.container>* {
+    border: 0.1em solid rgb(173, 172, 172);
+    border-radius: 0.3em;
+    padding: 2em;
+}
+
+header,
+footer {
+    flex: 0 0 100%;
+}
+
+main {
+    flex: 0 0 70%;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+.order header {
+    order: 1;
+}
+
+.order main {
+    order: 3;
+}
+
+.order aside {
+    order: 2;
+}
+
+.order footer {
+    order: 4;
+}
+
+@media(max-width:800px) {
+    .container>* {
+        flex: 0 1 100%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}

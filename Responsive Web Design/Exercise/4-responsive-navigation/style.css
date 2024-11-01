@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    max-width: 80%;
+    margin: 3em auto;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.3em;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    padding: 1em;
+    background-color: #eee;
+    border-radius: 0.3em;
+}
+
+@media (max-width:800px) {
+
+    .container {
+        max-width: 90%;
+    }
+}
